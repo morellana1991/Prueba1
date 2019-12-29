@@ -1,0 +1,82 @@
+body {
+    display: grid;
+    position: absolute;
+    left: 200px;
+}
+
+.cuadro1 {
+
+    width: 1128px;
+    height: 728px;
+    border: 5px solid #FF0000;
+    
+}
+
+.cuadro2 {
+
+    height: 150px;
+    width: 1127px;
+    border: 5px solid #B10FCB;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 38px;
+    line-height: 56px;
+    text-align: center;
+
+
+}
+
+.cuadro3 {
+
+    width: 1127px;
+    height: 577px;
+    display: grid;
+    border: 5px solid #74E6FF;
+    box-sizing: border-box;
+    grid-template-columns: 308px 993px;
+
+}
+
+.cuadro4 {
+
+    width: 309px;
+    height: 570px;
+    border: 5px solid #5DFF11;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 56px;
+    text-align: center;
+
+}
+
+.cuadro5 {
+
+    width: 808px;
+    height: 570px;
+    display: grid;
+    grid-template-rows: 176px 593px;
+    border: 5px solid #231FFF;
+    box-sizing: border-box;
+}
+
+
+.cuadro6 {
+
+    width: 799px;
+    height: 176px;
+    border: 5px solid #FF8A1F;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 38px;
+    text-align: center;
+    color: #000000;
+}
+
+.cuadro7{
+
+    width: 799px;
+    height: 383px;
+    border: 5px solid #FF1FF6;
+    box-sizing: border-box;
+}
